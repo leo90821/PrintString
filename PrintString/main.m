@@ -11,11 +11,11 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        int a = 1;
-        int b = 5;
-        int c = a + b;
+        int a = 100;
+        int b = a - 10;
+        //int c = a + b;
         
-        NSLog(@"a=%d,b=%d,c=%d",a,b,c);
+        NSLog(@"a=%d, b=%d, ++b=%i, b++=%i", a, b, ++b, b++);
     }
     return 0;
 }
