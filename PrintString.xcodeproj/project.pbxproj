@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9EB6871A5D5DC600C2041C /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EB6861A5D5DC600C2041C /* XYPoint.m */; };
+		0E9EB68A1A5D5FF100C2041C /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EB6891A5D5FF100C2041C /* Line.m */; };
 		0EDFF5001A4EE51F00A9B0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFF4FF1A4EE51F00A9B0F1 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E9EB6851A5D5DC600C2041C /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		0E9EB6861A5D5DC600C2041C /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		0E9EB6881A5D5FF100C2041C /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		0E9EB6891A5D5FF100C2041C /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		0EDFF4FC1A4EE51F00A9B0F1 /* PrintString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrintString; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDFF4FF1A4EE51F00A9B0F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0EDFF4FF1A4EE51F00A9B0F1 /* main.m */,
+				0E9EB6851A5D5DC600C2041C /* XYPoint.h */,
+				0E9EB6881A5D5FF100C2041C /* Line.h */,
+				0E9EB6891A5D5FF100C2041C /* Line.m */,
+				0E9EB6861A5D5DC600C2041C /* XYPoint.m */,
 			);
 			path = PrintString;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EDFF5001A4EE51F00A9B0F1 /* main.m in Sources */,
+				0E9EB68A1A5D5FF100C2041C /* Line.m in Sources */,
+				0E9EB6871A5D5DC600C2041C /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +244,7 @@
 				0EDFF5051A4EE51F00A9B0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
